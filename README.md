@@ -32,6 +32,25 @@ Desarrollar un sistema de clasificación académica basado en **PCA + Machine Le
 - ✔ Visualizar resultados en un **dashboard interactivo**  
 
 ---
+###Implementación Web
+✅ Aplicación web completa con Streamlit
+
+✅ Visualización interactiva de PCA y fronteras de decisión
+
+✅ Panel de control con parámetros ajustables
+
+✅ Matriz de covarianza y análisis detallado
+
+---
+
+###Mejoras Técnicas
+� Conversión de etiquetas categóricas para modelos
+
+🧮 Cálculo explícito de matriz de covarianza
+
+📊 Visualización mejorada de resultados
+
+---
 
 ## 💡 Idea del Proyecto  
 
@@ -44,41 +63,19 @@ Desarrollar un sistema de clasificación académica basado en **PCA + Machine Le
 
 ---
 
-## 📚 Marco Teórico  
+###🛠 Instalación y Uso
 
-### 1. Vectores y Matrices  
-- Representan **observaciones (filas)** y **variables (columnas)** en espacios multidimensionales  
-- **Aplicación:** Organización de datos académicos para análisis  
-- **Fuente:** Strang (2016), *Introduction to Linear Algebra*  
+Python 3.8+
+pip install streamlit
 
-### 2. Transformaciones Lineales  
-```math
-T(u + v) = T(u) + T(v)  
-T(c \cdot u) = c \cdot T(u)
+---
 
-### 1. Análisis de Componentes Principales (PCA)  
-**Proceso técnico:**  
-```python
-from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
+###Ejecución
 
-# Estandarización
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
+streamlit run app_rendimiento.py
 
-# Aplicación PCA
-pca = PCA(n_components=2)
-X_pca = pca.fit_transform(X_scaled)
+---
 
-## 🚀 Instalación
 
-### Requisitos Previos
-- Python 3.8+
-- pip 20.0+
 
-### Pasos de Instalación
 
-1. **Clonar repositorio**:
-   ```bash
-   git clone https://github.com/tu-usuario/proyecto-lineal.git
-   cd proyecto-lineal
