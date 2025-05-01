@@ -1,5 +1,5 @@
-Proyecto de Álgebra Lineal: Clasificación del Rendimiento Académico
-Primera Entrega
+##Proyecto de Álgebra Lineal: Clasificación del Rendimiento Académico
+#Primera Entrega
 Responsables:
 
 Andrés Felipe Arteaga G.
@@ -10,7 +10,7 @@ Anderson Monsalve M.
 
 David Santiago Rodriguez R.
 
-📌 Introducción
+##📌 Introducción
 El rendimiento académico de los estudiantes está influenciado por múltiples factores, como calificaciones, asistencia, hábitos de estudio y entorno familiar. Este proyecto utiliza técnicas de Álgebra Lineal (PCA) y Machine Learning (KNN, SVM) para:
 
 Identificar patrones clave en datos académicos.
@@ -21,7 +21,7 @@ Generar recomendaciones para mejorar estrategias pedagógicas.
 
 Nota: La información fue validada con fuentes confiables para garantizar precisión.
 
-🎯 Objetivos
+##🎯 Objetivos
 Objetivo General
 Desarrollar un sistema de clasificación académica basado en PCA + Machine Learning para optimizar la toma de decisiones educativas.
 
