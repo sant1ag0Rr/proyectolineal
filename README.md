@@ -55,3 +55,30 @@ Desarrollar un sistema de clasificación académica basado en **PCA + Machine Le
 ```math
 T(u + v) = T(u) + T(v)  
 T(c \cdot u) = c \cdot T(u)
+
+### 1. Análisis de Componentes Principales (PCA)  
+**Proceso técnico:**  
+```python
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+
+# Estandarización
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+# Aplicación PCA
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X_scaled)
+
+## 🚀 Instalación
+
+### Requisitos Previos
+- Python 3.8+
+- pip 20.0+
+
+### Pasos de Instalación
+
+1. **Clonar repositorio**:
+   ```bash
+   git clone https://github.com/tu-usuario/proyecto-lineal.git
+   cd proyecto-lineal
