@@ -32,7 +32,8 @@ Desarrollar un sistema de clasificación académica basado en **PCA + Machine Le
 - ✔ Visualizar resultados en un **dashboard interactivo**  
 
 ---
-###Implementación Web
+
+## Implementación Web
 ✅ Aplicación web completa con Streamlit
 
 ✅ Visualización interactiva de PCA y fronteras de decisión
@@ -43,7 +44,7 @@ Desarrollar un sistema de clasificación académica basado en **PCA + Machine Le
 
 ---
 
-###Mejoras Técnicas
+## Mejoras Técnicas
 � Conversión de etiquetas categóricas para modelos
 
 🧮 Cálculo explícito de matriz de covarianza
@@ -63,16 +64,16 @@ Desarrollar un sistema de clasificación académica basado en **PCA + Machine Le
 
 ---
 
-###🛠 Instalación y Uso
+## 🛠 Instalación y Uso
 
-Python 3.8+
-pip install streamlit
+- Python 3.8+
+- pip install streamlit
 
 ---
 
-###Ejecución
+## Ejecución
 
-streamlit run app_rendimiento.py
+- streamlit run app_rendimiento.py
 
 ---
 
