@@ -67,6 +67,7 @@ Desarrollar un sistema de clasificación académica basado en **PCA + Machine Le
 ## 🛠 Instalación y Uso
 
 - Python 3.8+
+- pip install pandas numpy matplotlib seaborn scikit-learn
 - pip install streamlit
 
 ---
